@@ -39,10 +39,10 @@ public class Instrucoes extends Activity {
 
 			@Override
 			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
-			    Intent teste = new Intent(arg1.getContext(), Exercicio.class);
-                teste.putExtra("titulo","bla" );
-                startActivity(teste);
-                
+				
+			    Intent teste2 = new Intent(arg1.getContext(), Exercicio.class);
+                teste2.putExtra("titulo",valores[arg2] );
+                startActivity(teste2);
 
 			}
 

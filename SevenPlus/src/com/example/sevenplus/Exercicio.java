@@ -15,7 +15,7 @@ public class Exercicio extends Activity {
 		TextView tv = (TextView) findViewById(R.id.tv);
 		exercicio = (String) getIntent().getSerializableExtra("titulo");
 		tv.setText(exercicio);
-		setContentView(tv);
+//		setContentView(tv);
 	}
 
 	@Override
