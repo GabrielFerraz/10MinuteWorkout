@@ -12,7 +12,7 @@ public class Exercicio extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_exercicio);
-		TextView tv = (TextView) findViewById(R.id.tv);
+		TextView tv = (TextView) findViewById(R.id.nome_exercicio);
 		exercicio = (String) getIntent().getSerializableExtra("titulo");
 		tv.setText(exercicio);
 //		setContentView(tv);

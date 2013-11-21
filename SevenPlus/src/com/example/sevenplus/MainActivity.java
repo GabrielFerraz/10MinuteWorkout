@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				Intent teste = new Intent(arg0.getContext(), WorkoutActivity.class);
+				Intent teste = new Intent(arg0.getContext(), Config.class);
 				startActivity(teste);
 			}
 			
