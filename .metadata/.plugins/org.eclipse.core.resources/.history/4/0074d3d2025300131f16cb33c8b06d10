@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
 
 		ImageButton teste2 = (ImageButton) findViewById( R.id.imageButton2 ); 
 
-		teste2.setOnClickListener(new OnClickListener(){
+		teste.setOnClickListener(new OnClickListener(){
 
 			@Override
 			public void onClick(View arg0) {
@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
 
 		ImageButton teste3 = (ImageButton) findViewById( R.id.imageButton3 ); 
 
-		teste3.setOnClickListener(new OnClickListener(){
+		teste.setOnClickListener(new OnClickListener(){
 
 			@Override
 			public void onClick(View arg0) {
@@ -55,7 +55,7 @@ public class MainActivity extends Activity {
 
 		ImageButton teste4 = (ImageButton) findViewById( R.id.imageButton4 ); 
 
-		teste4.setOnClickListener(new OnClickListener(){
+		teste.setOnClickListener(new OnClickListener(){
 
 			@Override
 			public void onClick(View arg0) {
