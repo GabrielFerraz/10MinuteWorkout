@@ -1,11 +1,12 @@
 package com.example.sevenplus;
 
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 public class MainActivity extends Activity {
@@ -47,7 +48,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				Intent teste3 = new Intent(arg0.getContext(), Instrucoes.class);
+				Intent teste3 = new Intent(arg0.getContext(), HistoricoActivity.class);
 				startActivity(teste3);
 			}
 
@@ -62,6 +63,19 @@ public class MainActivity extends Activity {
 				// TODO Auto-generated method stub
 				Intent teste4 = new Intent(arg0.getContext(), Config.class);
 				startActivity(teste4);
+			}
+
+		});
+		
+		Button iniciar = (Button) findViewById( R.id.iniciar ); 
+
+		iniciar.setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Intent telaTimer = new Intent(arg0.getContext(), TimerActivity.class);
+				startActivity(telaTimer);
 			}
 
 		});

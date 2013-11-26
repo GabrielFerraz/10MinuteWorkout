@@ -42,6 +42,10 @@
             android:name="com.example.sevenplus.WorkoutActivity"
             android:label="Workout" >
         </activity>
+        <activity
+            android:name="com.example.sevenplus.TimerActivity"
+            android:label="@string/title_activity_timer" >
+        </activity>
     </application>
 
 </manifest>

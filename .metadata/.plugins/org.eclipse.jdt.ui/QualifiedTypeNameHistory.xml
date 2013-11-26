@@ -7,9 +7,14 @@
 <fullyQualifiedTypeName name="android.widget.ListView"/>
 <fullyQualifiedTypeName name="android.widget.AdapterView.OnItemClickListener"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
-<fullyQualifiedTypeName name="com.example.sevenplus.R.layout"/>
 <fullyQualifiedTypeName name="android.widget.Button"/>
 <fullyQualifiedTypeName name="com.example.sevenplus.R.id"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.preference.PreferenceFragment"/>
+<fullyQualifiedTypeName name="android.os.Bundle"/>
+<fullyQualifiedTypeName name="com.example.sevenplus.R.layout"/>
+<fullyQualifiedTypeName name="android.Manifest"/>
+<fullyQualifiedTypeName name="com.example.sevenplus.HistoricoActivity"/>
+<fullyQualifiedTypeName name="com.example.sevenplus.Instrucoes"/>
 </qualifiedTypeNameHistroy>
