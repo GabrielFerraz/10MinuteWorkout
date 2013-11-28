@@ -1,0 +1,47 @@
+package com.example.utils;
+
+import android.content.Intent;
+import android.view.MenuItem;
+import android.view.View;
+
+import com.example.sevenplus.R;
+import com.example.sevenplus.TimerActivity;
+
+public class Utils {
+	
+	public static View view;
+	
+	public Utils(View view){
+		this.view = view;
+	}
+	
+	public static boolean opcao(MenuItem item){
+		
+		switch (item.getItemId()) {
+
+        case R.id.home:
+            homeActivity();
+            return true;
+
+        case R.id.historico:
+        	homeActivity();
+            return true;
+
+        case R.id.instrucoes:
+        	homeActivity();
+            return true;
+            
+        case R.id.configuracoes:
+        	homeActivity();
+            return true;
+
+        default:
+            return false;
+        }
+	}
+	
+	public static void homeActivity(){
+    	Intent telaTimer = new Intent(view.getContext(), TimerActivity.class);
+		startActivity(telaTimer);
+    }
+}

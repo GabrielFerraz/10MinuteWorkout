@@ -39,7 +39,10 @@ public final class R {
         public static final int TempoTimer=0x7f09000d;
         public static final int action_settings=0x7f090013;
         public static final int calendarView1=0x7f090008;
+        public static final int configuracoes=0x7f090017;
         public static final int descricao_exercicio=0x7f090002;
+        public static final int historico=0x7f090015;
+        public static final int home=0x7f090014;
         public static final int imageButton1=0x7f090004;
         public static final int imageButton2=0x7f090005;
         public static final int imageButton3=0x7f090006;
@@ -47,6 +50,7 @@ public final class R {
         public static final int imageView1=0x7f09000a;
         public static final int imagem_exercicio=0x7f090001;
         public static final int iniciar=0x7f09000b;
+        public static final int instrucoes=0x7f090016;
         public static final int linearLayout1=0x7f090003;
         public static final int linearLayout2=0x7f09000e;
         public static final int listViewExercicios=0x7f090009;
