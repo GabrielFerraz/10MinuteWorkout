@@ -1,9 +1,14 @@
 package com.example.sevenplus;
 
 import java.util.ArrayList;
+
+import com.example.utils.Utils;
+
 import android.os.Bundle;
+import android.app.ActionBar;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -18,6 +23,8 @@ public class WorkoutActivity extends Activity {
 	    super.onCreate(savedInstanceState);  
 	    setContentView(R.layout.activity_workout);  
 	      
+	    ActionBar actionBar = getActionBar();
+		actionBar.setDisplayShowTitleEnabled(false);
 	    // Find the ListView resource.   
 	    mainListView = (ListView) findViewById( R.id.mainlistView );  
 	  
@@ -43,5 +50,11 @@ public class WorkoutActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
+	
+	public boolean onOptionsItemSelected(MenuItem item) {
+		
+        startActivity(Utils.opcao(item, this.getApplicationContext()));
+        return true;
+    }
 
 }
