@@ -1,7 +1,0 @@
-package com.example.sevenplus;
-
-import android.app.Activity;
-
-public class Instrucoes extends Activity {
-
-}

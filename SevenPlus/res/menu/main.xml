@@ -1,33 +1,28 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
-
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/action_settings"/>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:sevenplus="http://schemas.android.com/apk/res-auto">
     
     <item
         android:id="@+id/home"
         android:orderInCategory="1"
         android:icon="@drawable/home"
-        android:showAsAction="always"
+        sevenplus:showAsAction="always"
         android:title="home"/>
     <item
         android:id="@+id/historico"
         android:orderInCategory="2"
-        android:showAsAction="always"
+        sevenplus:showAsAction="always"
         android:icon="@drawable/hist"
         android:title="historico"/>
     <item
         android:id="@+id/instrucoes"
         android:orderInCategory="3"
-        android:showAsAction="always"
+        sevenplus:showAsAction="always"
         android:icon="@drawable/inst"
         android:title="instrucoes"/>
     <item
         android:id="@+id/configuracoes"
         android:orderInCategory="4"
-        android:showAsAction="always"
+        sevenplus:showAsAction="always"
         android:icon="@drawable/conf"
         android:title="configuracoes"/>
 

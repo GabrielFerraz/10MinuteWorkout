@@ -2,12 +2,10 @@ package com.example.sevenplus;
 
 import java.util.ArrayList;
 
-import com.example.utils.Utils;
-
-import android.app.ActionBar;
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -16,12 +14,14 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class Instrucoes extends Activity {
+import com.example.utils.Utils;
+
+public class Instrucoes extends ActionBarActivity {
 	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_instrucoes);
-        ActionBar actionBar = getActionBar();
+        ActionBar actionBar = getSupportActionBar();
 		actionBar.setDisplayShowTitleEnabled(false);
         
         final ListView listview = (ListView) findViewById(R.id.listViewExercicios);

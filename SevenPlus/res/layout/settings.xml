@@ -3,12 +3,10 @@
 
     <PreferenceCategory android:title="Alarme" >
 
-        <SwitchPreference
+        <CheckBoxPreference
                 android:key="checkbox_preference"
                 android:title="Ligar Alarme"
-                android:summary=""
-                android:switchTextOn = "SIM"
-                android:switchTextOff = "NAO" />
+                android:summary="" />
         
     </PreferenceCategory>
     <PreferenceCategory android:title="Workout" >

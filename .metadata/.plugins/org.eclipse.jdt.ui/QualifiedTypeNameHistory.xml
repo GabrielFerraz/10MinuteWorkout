@@ -13,7 +13,6 @@
 <fullyQualifiedTypeName name="com.example.sevenplus.R.layout"/>
 <fullyQualifiedTypeName name="android.Manifest"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
-<fullyQualifiedTypeName name="com.example.sevenplus.R.id"/>
 <fullyQualifiedTypeName name="com.example.sevenplus.TimerActivity"/>
 <fullyQualifiedTypeName name="android.os.CountDownTimer"/>
 <fullyQualifiedTypeName name="com.example.sevenplus.TimerActivity.MyCountDownTimer"/>
@@ -26,4 +25,9 @@
 <fullyQualifiedTypeName name="com.example.utils.Utils"/>
 <fullyQualifiedTypeName name="android.content.Context"/>
 <fullyQualifiedTypeName name="com.example.sevenplus.MainActivity"/>
+<fullyQualifiedTypeName name="com.example.sevenplus.R.id"/>
+<fullyQualifiedTypeName name="android.app.ActionBar"/>
+<fullyQualifiedTypeName name="android.support.v7.app.ActionBarActivity"/>
+<fullyQualifiedTypeName name="android.support.v7.app.ActionBar"/>
+<fullyQualifiedTypeName name="com.example.sevenplus.SettingsFragment"/>
 </qualifiedTypeNameHistroy>

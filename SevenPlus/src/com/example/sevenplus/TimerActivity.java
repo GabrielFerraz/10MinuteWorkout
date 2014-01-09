@@ -22,8 +22,6 @@ public class TimerActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_timer);
-		ActionBar actionBar = getActionBar();
-		actionBar.setDisplayShowTitleEnabled(false);
 		tempo = (TextView) this.findViewById(R.id.TempoTimer);
 		exercicio = (TextView) this.findViewById(R.id.nomeExercicioTimer);
 		timer = new MyCountDownTimer(31000, 1000);
@@ -36,7 +34,7 @@ public class TimerActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
+		getMenuInflater().inflate(R.menu.timer, menu);
 		return true;
 	}
 	

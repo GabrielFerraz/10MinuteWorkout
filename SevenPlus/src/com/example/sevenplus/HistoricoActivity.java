@@ -1,20 +1,21 @@
 package com.example.sevenplus;
 
-import com.example.utils.Utils;
 
 import android.os.Bundle;
-import android.app.ActionBar;
-import android.app.Activity;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class HistoricoActivity extends Activity {
+import com.example.utils.Utils;
+
+public class HistoricoActivity extends ActionBarActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_historico);
-		ActionBar actionBar = getActionBar();
+		ActionBar actionBar = getSupportActionBar();
 		actionBar.setDisplayShowTitleEnabled(false);
 	}
 

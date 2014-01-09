@@ -23,8 +23,6 @@ public class WorkoutActivity extends Activity {
 	    super.onCreate(savedInstanceState);  
 	    setContentView(R.layout.activity_workout);  
 	      
-	    ActionBar actionBar = getActionBar();
-		actionBar.setDisplayShowTitleEnabled(false);
 	    // Find the ListView resource.   
 	    mainListView = (ListView) findViewById( R.id.mainlistView );  
 	  
@@ -47,7 +45,7 @@ public class WorkoutActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
+		getMenuInflater().inflate(R.menu.config, menu);
 		return true;
 	}
 	
