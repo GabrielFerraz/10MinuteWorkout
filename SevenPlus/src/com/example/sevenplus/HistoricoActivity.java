@@ -1,12 +1,15 @@
 package com.example.sevenplus;
 
-import com.example.utils.Utils;
 
+import com.example.utils.Utils;
 import android.os.Bundle;
 import android.app.ActionBar;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.CalendarView;
+import android.widget.CalendarView.OnDateChangeListener;
 
 public class HistoricoActivity extends Activity {
 
@@ -16,6 +19,26 @@ public class HistoricoActivity extends Activity {
 		setContentView(R.layout.activity_historico);
 		ActionBar actionBar = getActionBar();
 		actionBar.setDisplayShowTitleEnabled(false);
+		
+		 final CalendarView calendarView = (CalendarView) findViewById(R.id.calendarView1);
+		 
+	        // quando selecionado alguma data diferente da padrão
+	        calendarView.setOnDateChangeListener(new OnDateChangeListener() {
+	 
+	            @Override
+	            public void onSelectedDayChange(CalendarView view, int year,
+	                    int month, int dayOfMonth) {
+	            	Intent intent = new Intent(view.getContext(), WorkoutActivity.class);
+	                //intent.putExtra("dia", dayOfMonth);
+	                //intent.putExtra("mes", month);
+	                //intent.putExtra("ano", year);
+	            	intent.putExtra("dataLongMiliseconds",
+	                        (Long) calendarView.getDate());
+	            	
+	                startActivity(intent);
+	 
+	            }
+	        });
 	}
 
 	@Override

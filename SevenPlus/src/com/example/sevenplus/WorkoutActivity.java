@@ -1,16 +1,19 @@
 package com.example.sevenplus;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 import com.example.utils.Utils;
 
 import android.os.Bundle;
 import android.app.ActionBar;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class WorkoutActivity extends Activity {
 
@@ -43,6 +46,17 @@ public class WorkoutActivity extends Activity {
 	      
 	    // Set the ArrayAdapter as the ListView's adapter.  
 	    mainListView.setAdapter( listAdapter );
+	    
+	    Intent intent= this.getIntent();
+	    Bundle b = intent.getExtras();
+	    if (b!=null){
+	    	int x = b.getInt("dataLongMiliseconds");
+	    	Date date = new Date(x);
+	    	Toast.makeText(getApplicationContext(), "data "+date.toString(), Toast.LENGTH_SHORT).show();
+	    	
+	    }
+	    
+	    
 	  }
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
