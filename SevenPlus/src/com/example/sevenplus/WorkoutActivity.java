@@ -50,8 +50,7 @@ public class WorkoutActivity extends Activity {
 	    Intent intent= this.getIntent();
 	    Bundle b = intent.getExtras();
 	    if (b!=null){
-	    	int x = b.getInt("dataLongMiliseconds");
-	    	Date date = new Date(x);
+	    	Date date = new Date(b.getLong("dataLongMiliseconds"));
 	    	Toast.makeText(getApplicationContext(), "data "+date.toString(), Toast.LENGTH_SHORT).show();
 	    	
 	    }

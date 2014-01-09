@@ -32,8 +32,7 @@ public class HistoricoActivity extends Activity {
 	                //intent.putExtra("dia", dayOfMonth);
 	                //intent.putExtra("mes", month);
 	                //intent.putExtra("ano", year);
-	            	intent.putExtra("dataLongMiliseconds",
-	                        (Long) calendarView.getDate());
+	            	intent.putExtra("dataLongMiliseconds",view.getDate());
 	            	
 	                startActivity(intent);
 	 

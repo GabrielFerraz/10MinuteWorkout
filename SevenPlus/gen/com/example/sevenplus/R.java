@@ -59,8 +59,8 @@ public final class R {
         public static final int rowTextView=0x7f090010;
         public static final int textView1=0x7f09000c;
         public static final int textView2=0x7f09000d;
-        public static final int textView3=0x7f09000e;
-        public static final int textView4=0x7f09000f;
+        public static final int textView3=0x7f09000f;
+        public static final int textView4=0x7f09000e;
     }
     public static final class layout {
         public static final int activity_config=0x7f030000;
