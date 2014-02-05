@@ -9,5 +9,6 @@
     <string name="title_activity_config">Config</string>
     <string name="title_activity_timer">TimerActivity</string>
     <string name="title_activity_calendar">Calendar</string>
+    <string name="title_activity_historico">Historico</string>
 
 </resources>

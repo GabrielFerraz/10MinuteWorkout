@@ -3,6 +3,7 @@
 	<name>SevenPlus</name>
 	<comment></comment>
 	<projects>
+		<project>library</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

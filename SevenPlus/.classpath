@@ -5,5 +5,7 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Valois/Desktop/android-times-square-master/library/bin/library.jar" sourcepath="/library/src"/>
+	<classpathentry kind="src" path="/SampleTimesSquareActivity"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

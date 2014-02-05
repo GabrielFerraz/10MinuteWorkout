@@ -50,6 +50,15 @@
             android:name="com.example.sevenplus.Calendario"
             android:label="@string/title_activity_calendar" >
         </activity>
+        <activity
+            android:name="com.example.sevenplus.Historico"
+            android:label="@string/title_activity_historico" >
+        </activity>
+        
     </application>
-
+<dependency>
+    <groupId>com.squareup</groupId>
+    <artifactId>android-times-square</artifactId>
+    <version>1.1.0</version>
+</dependency>
 </manifest>

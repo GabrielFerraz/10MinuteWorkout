@@ -3,9 +3,8 @@ package com.example.utils;
 import android.content.Context;
 import android.content.Intent;
 import android.view.MenuItem;
-
-import com.example.sevenplus.Calendario;
 import com.example.sevenplus.Config;
+import com.example.sevenplus.Historico;
 import com.example.sevenplus.HistoricoActivity;
 import com.example.sevenplus.Instrucoes;
 import com.example.sevenplus.MainActivity;
@@ -22,7 +21,7 @@ public class Utils {
             return intent;
 
         case R.id.historico:
-        	intent = new Intent(context, Calendario.class);//historico.
+        	intent = new Intent(context, Historico.class);
             return intent;
 
         case R.id.instrucoes:
