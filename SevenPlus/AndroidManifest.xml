@@ -46,6 +46,10 @@
             android:name="com.example.sevenplus.TimerActivity"
             android:label="@string/title_activity_timer" >
         </activity>
+        <activity
+            android:name="com.example.sevenplus.Calendario"
+            android:label="@string/title_activity_calendar" >
+        </activity>
     </application>
 
 </manifest>
