@@ -16,9 +16,9 @@ public class Config extends Activity {
 		super.onCreate(savedInstanceState);
 		ActionBar actionBar = getActionBar();
 		actionBar.setDisplayShowTitleEnabled(false);
-		getFragmentManager().beginTransaction()
-        .replace(android.R.id.content, new SettingsFragment())
-        .commit();
+//		getFragmentManager().beginTransaction()
+//        .replace(android.R.id.content, new SettingsFragment())
+//        .commit();
 	}
 
 	@Override

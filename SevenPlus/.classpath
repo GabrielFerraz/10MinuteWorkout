@@ -5,7 +5,7 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry kind="lib" path="C:/Users/Valois/Documents/GitHub/10MinuteWorkout/android-times-square-master/library/bin/library.jar" sourcepath="/library/src"/>
-	<classpathentry kind="src" path="/SampleTimesSquareActivity"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Gabriel/Documents/SevenPlus/android-times-square-master/library/bin/library.jar" sourcepath="/library/src"/>
+	<classpathentry exported="true" kind="src" path="/SampleTimesSquareActivity"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

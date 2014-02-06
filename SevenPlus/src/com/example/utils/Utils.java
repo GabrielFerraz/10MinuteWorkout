@@ -2,6 +2,7 @@ package com.example.utils;
 
 import android.content.Context;
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.view.MenuItem;
 import com.example.sevenplus.Config;
 import com.example.sevenplus.Historico;
@@ -9,8 +10,66 @@ import com.example.sevenplus.HistoricoActivity;
 import com.example.sevenplus.Instrucoes;
 import com.example.sevenplus.MainActivity;
 import com.example.sevenplus.R;
+import com.example.sevenplus.SettingsFragment;
 
 public class Utils {	
+	
+	static SQLiteDatabase db;
+	
+	static String[] CREATE_SQL = new String[] {
+			 
+            
+            "CREATE TABLE IF NOT EXISTS exercicio ("+
+            		"exercicio_id integer not null primary key autoincrement,"+
+            		"nome text not null,"+
+            		"imagem text not null," +
+            		"descricao text not null);",
+            		
+    		"CREATE TABLE IF NOT EXISTS treino ("+
+            		"treino_id integer not null primary key autoincrement,"+
+    				"ciclos integer not null,"+
+            		"tempo integer not null);",
+            		
+    		"CREATE TABLE IF NOT EXISTS historico ("+
+            		"historico_id integer not null primary key autoincrement,"+
+    				"treino_id integer not null," +
+    				"foreign key (treino_id) references treino(treino_id)," +
+    				"data text not null);",
+    				
+			"CREATE TABLE IF NOT EXISTS treinos ("+
+    				"exercicio_id integer not null," +
+    				"treino_id integer not null," +
+    				"foreign key(exercicio_id) references exercicio(exercicio_id)," +
+    				"foreign key(treino_id) references treino(treino_id));",
+    				
+    				"INSERT INTO exercicio (nome,imagem,descricao) VALUES" +
+    						"('Jumping Jacks','jumpingjacks','descricao_exercicio');",
+					"INSERT INTO exercicio (nome,imagem,descricao) VALUES" +
+							"('Wall Sit','wallsit','descricao_exercicio');",
+					"INSERT INTO exercicio (nome,imagem,descricao) VALUES" +
+							"('Push Ups','pushup','descricao_exercicio');",
+					"INSERT INTO exercicio (nome,imagem,descricao) VALUES" +
+							"('Abdominal Crunch','abdominal','descricao_exercicio');",
+					"INSERT INTO exercicio (nome,imagem,descricao) VALUES" +
+							"('Step Up','stepup','descricao_exercicio');",
+					"INSERT INTO exercicio (nome,imagem,descricao) VALUES" +
+							"('Squat','squat','descricao_exercicio');",
+					"INSERT INTO exercicio (nome,imagem,descricao) VALUES" +
+							"('Triceps Dip','dips','descricao_exercicio');",
+					"INSERT INTO exercicio (nome,imagem,descricao) VALUES" +
+							"('Plank','plank','descricao_exercicio');",
+					"INSERT INTO exercicio (nome,imagem,descricao) VALUES" +
+							"('High Knees','highknee','descricao_exercicio');",
+					"INSERT INTO exercicio (nome,imagem,descricao) VALUES" +
+							"('Lunge','lunge','descricao_exercicio');",
+					"INSERT INTO exercicio (nome,imagem,descricao) VALUES" +
+							"('Push Ups and Rotation','rotation','descricao_exercicio');",
+					"INSERT INTO exercicio (nome,imagem,descricao) VALUES" +
+							"('Side Plank','sideplank','descricao_exercicio');",
+
+ 
+                     
+    };
 	
 	public static Intent opcao(MenuItem item, Context context){
 		Intent intent;
@@ -29,12 +88,22 @@ public class Utils {
             return intent;
             
         case R.id.configuracoes:
-        	intent = new Intent(context, Config.class);
+        	intent = new Intent(context, SettingsFragment.class);
             return intent;
 
         default:
             return null;
         }
+	}
+	
+	public static SQLiteDatabase criaDB(Context c){
+		SQLiteHelper dbHelper = new SQLiteHelper(c, "treinador", 30, CREATE_SQL);
+		db = dbHelper.getWritableDatabase();
+		return db;
+	}
+	
+	public static SQLiteDatabase getDB(){
+		return db;
 	}
 
 }

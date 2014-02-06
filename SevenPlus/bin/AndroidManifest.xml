@@ -31,7 +31,7 @@
             android:label="@string/title_activity_exercicio" >
         </activity>
         <activity
-            android:name="com.example.sevenplus.Config"
+            android:name="com.example.sevenplus.SettingsFragment"
             android:label="@string/title_activity_config" >
         </activity>
         <activity
