@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Alarme" >
+
+        <CheckBoxPreference
+                android:key="checkbox_preference"
+                android:title="Ligar Alarme"
+                android:summary=""
+                android:defaultValue = "true" />
+        
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Workout" >
+        
+        <ListPreference
+            android:entries="@array/treinos"
+            android:entryValues="@array/valorTreinos"
+            android:key="workout"
+            android:summary=""
+            android:title="Treino"
+            android:defaultValue = "1" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Workout" >
+        
+        <ListPreference
+            android:entries="@array/exercicio"
+            android:entryValues="@array/exercicio"
+            android:key="exercicio"
+            android:summary=""
+            android:title="Exercicio"
+            android:defaultValue = "30" />
+        <ListPreference
+            android:entries="@array/descanso"
+            android:entryValues="@array/descanso"
+            android:key="descanso"
+            android:summary=""
+            android:title="Descanso"
+            android:defaultValue = "5" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Ciclos" >
+        
+        <ListPreference
+            android:entries="@array/ciclo"
+            android:entryValues="@array/ciclo"
+            android:key="ciclo"
+            android:summary=""
+            android:title="Ciclos"
+            android:defaultValue = "1" />
+    </PreferenceCategory>
+
+</PreferenceScreen> 

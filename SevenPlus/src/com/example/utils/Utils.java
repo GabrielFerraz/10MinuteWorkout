@@ -28,7 +28,8 @@ public class Utils {
     		"CREATE TABLE IF NOT EXISTS treino ("+
             		"treino_id integer not null primary key autoincrement,"+
     				"ciclos integer not null,"+
-            		"tempo integer not null);",
+            		"tempoExercicio integer not null," +
+            		"tempoDescanso integer not null);",
             		
     		"CREATE TABLE IF NOT EXISTS historico ("+
             		"historico_id integer not null primary key autoincrement,"+
@@ -66,6 +67,8 @@ public class Utils {
 							"('Push Ups and Rotation','rotation','descricao_exercicio');",
 					"INSERT INTO exercicio (nome,imagem,descricao) VALUES" +
 							"('Side Plank','sideplank','descricao_exercicio');",
+							"INSERT INTO exercicio (nome,imagem,descricao) VALUES" +
+									"('Side Plank','sideplank','descricao_exercicio');",
 
  
                      

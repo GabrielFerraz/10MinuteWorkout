@@ -137,31 +137,33 @@ containing a value of this type.
     }
     public static final class id {
         public static final int TempoTimer=0x7f0a0009;
-        public static final int action_settings=0x7f0a0015;
+        public static final int action_settings=0x7f0a0017;
         public static final int calendarView1=0x7f0a0003;
-        public static final int calendar_grid=0x7f0a0013;
-        public static final int calendar_view=0x7f0a0010;
-        public static final int configuracoes=0x7f0a0019;
+        public static final int calendar_grid=0x7f0a0015;
+        public static final int calendar_view=0x7f0a0012;
+        public static final int configuracoes=0x7f0a001b;
         public static final int descricao_exercicio=0x7f0a0002;
-        public static final int historico=0x7f0a0017;
-        public static final int home=0x7f0a0016;
+        public static final int historico=0x7f0a0019;
+        public static final int home=0x7f0a0018;
         public static final int imageView1=0x7f0a0006;
         public static final int imagem_exercicio=0x7f0a0001;
         public static final int iniciar=0x7f0a0007;
-        public static final int instrucoes=0x7f0a0018;
+        public static final int instrucoes=0x7f0a001a;
         public static final int linearLayout1=0x7f0a0004;
         public static final int linearLayout2=0x7f0a000a;
         public static final int listViewExercicios=0x7f0a0005;
         public static final int mainlistView=0x7f0a000b;
         public static final int nomeExercicioTimer=0x7f0a0008;
         public static final int nome_exercicio=0x7f0a0000;
-        public static final int rowTextView=0x7f0a0014;
+        public static final int qtdCiclos=0x7f0a000d;
+        public static final int rowTextView=0x7f0a0016;
         public static final int textView1=0x7f0a000c;
-        public static final int textView2=0x7f0a000d;
-        public static final int textView3=0x7f0a000f;
-        public static final int textView4=0x7f0a000e;
-        public static final int title=0x7f0a0012;
-        public static final int visualizar=0x7f0a0011;
+        public static final int textView5=0x7f0a000f;
+        public static final int textView6=0x7f0a0011;
+        public static final int title=0x7f0a0014;
+        public static final int tvTempoDescanso=0x7f0a000e;
+        public static final int tvTempoExercicio=0x7f0a0010;
+        public static final int visualizar=0x7f0a0013;
     }
     public static final class layout {
         public static final int activity_calendar=0x7f030000;

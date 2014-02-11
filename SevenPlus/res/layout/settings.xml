@@ -25,14 +25,14 @@
         <ListPreference
             android:entries="@array/exercicio"
             android:entryValues="@array/exercicio"
-            android:key="exercicio"
+            android:key="tempoExercicio"
             android:summary=""
             android:title="Exercicio"
             android:defaultValue = "30" />
         <ListPreference
             android:entries="@array/descanso"
             android:entryValues="@array/descanso"
-            android:key="descanso"
+            android:key="tempoDescanso"
             android:summary=""
             android:title="Descanso"
             android:defaultValue = "5" />
@@ -42,7 +42,7 @@
         <ListPreference
             android:entries="@array/ciclo"
             android:entryValues="@array/ciclo"
-            android:key="ciclo"
+            android:key="qtdCiclos"
             android:summary=""
             android:title="Ciclos"
             android:defaultValue = "1" />

@@ -12,8 +12,6 @@
 <fullyQualifiedTypeName name="android.os.Bundle"/>
 <fullyQualifiedTypeName name="com.example.sevenplus.R.layout"/>
 <fullyQualifiedTypeName name="android.Manifest"/>
-<fullyQualifiedTypeName name="android.widget.TextView"/>
-<fullyQualifiedTypeName name="com.example.sevenplus.R.id"/>
 <fullyQualifiedTypeName name="com.example.sevenplus.TimerActivity"/>
 <fullyQualifiedTypeName name="android.os.CountDownTimer"/>
 <fullyQualifiedTypeName name="com.example.sevenplus.TimerActivity.MyCountDownTimer"/>
@@ -23,7 +21,20 @@
 <fullyQualifiedTypeName name="com.example.sevenplus.HistoricoActivity"/>
 <fullyQualifiedTypeName name="com.example.sevenplus.Instrucoes"/>
 <fullyQualifiedTypeName name="com.example.sevenplus.Config"/>
-<fullyQualifiedTypeName name="com.example.utils.Utils"/>
-<fullyQualifiedTypeName name="android.content.Context"/>
 <fullyQualifiedTypeName name="com.example.sevenplus.MainActivity"/>
+<fullyQualifiedTypeName name="android.database.sqlite.SQLiteOpenHelper"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="android.database.SQLException"/>
+<fullyQualifiedTypeName name="android.preference.PreferenceActivity"/>
+<fullyQualifiedTypeName name="com.example.sevenplus.SettingsFragment"/>
+<fullyQualifiedTypeName name="android.database.sqlite.SQLiteDatabase"/>
+<fullyQualifiedTypeName name="com.example.utils.Utils"/>
+<fullyQualifiedTypeName name="android.database.Cursor"/>
+<fullyQualifiedTypeName name="android.widget.ImageView"/>
+<fullyQualifiedTypeName name="android.content.res.Resources"/>
+<fullyQualifiedTypeName name="android.content.SharedPreferences"/>
+<fullyQualifiedTypeName name="android.preference.PreferenceManager"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.example.sevenplus.R.id"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
 </qualifiedTypeNameHistroy>

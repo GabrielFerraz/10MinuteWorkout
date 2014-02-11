@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sevenplus"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="11" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name="com.example.sevenplus.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.sevenplus.Instrucoes"
+            android:label="Instruções" >
+        </activity>
+        <activity
+            android:name="com.example.sevenplus.Exercicio"
+            android:label="@string/title_activity_exercicio" >
+        </activity>
+        <activity
+            android:name="com.example.sevenplus.SettingsFragment"
+            android:label="@string/title_activity_config" >
+        </activity>
+        <activity
+            android:name="com.example.sevenplus.HistoricoActivity"
+            android:label="Historico" >
+        </activity>
+        <activity
+            android:name="com.example.sevenplus.WorkoutActivity"
+            android:label="Workout" >
+        </activity>
+        <activity
+            android:name="com.example.sevenplus.TimerActivity"
+            android:label="@string/title_activity_timer" >
+        </activity>
+        <activity
+            android:name="com.example.sevenplus.Calendario"
+            android:label="@string/title_activity_calendar" >
+        </activity>
+        <activity
+            android:name="com.example.sevenplus.Historico"
+            android:label="@string/title_activity_historico" >
+        </activity>
+        
+    </application>
+<dependency>
+    <groupId>com.squareup</groupId>
+    <artifactId>android-times-square</artifactId>
+    <version>1.1.0</version>
+</dependency>
+</manifest>

@@ -6,7 +6,8 @@ import android.preference.PreferenceFragment;
 
 public class SettingsFragment extends PreferenceActivity {
 	
-	public void onCreate(Bundle savedInstanceState) {
+	@SuppressWarnings("deprecation")
+	public void onCreate(Bundle savedInstanceState) { 
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.layout.settings);

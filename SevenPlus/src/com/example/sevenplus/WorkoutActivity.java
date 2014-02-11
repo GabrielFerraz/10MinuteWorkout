@@ -9,15 +9,21 @@ import android.os.Bundle;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class WorkoutActivity extends Activity {
 
-	 private ListView mainListView ;  
+	 private ListView mainListView ; 
+	 private TextView tempoExercicio;
+	 private TextView tempoDescanso;
+	 private TextView ciclos;
 	 private ArrayAdapter<String> listAdapter ;  
 	    
 	  /** Called when the activity is first created. */  
@@ -28,9 +34,14 @@ public class WorkoutActivity extends Activity {
 	      
 	    ActionBar actionBar = getActionBar();
 		actionBar.setDisplayShowTitleEnabled(false);
+		
+		SQLiteDatabase db;
+		db = Utils.getDB();
 	    // Find the ListView resource.   
 	    mainListView = (ListView) findViewById( R.id.mainlistView );  
-	  
+	    tempoExercicio = (TextView) findViewById(R.id.tvTempoExercicio);
+	    tempoDescanso = (TextView) findViewById(R.id.tvTempoDescanso);
+	    ciclos = (TextView) findViewById(R.id.qtdCiclos);
 	    // Create and populate a List of planet names.  
 	    String[] planets = new String[] { "exercicio 1", "exercicio 2", "exercicio 3", "exercicio 4",  
 	                                      "exercicio 5", "exercicio 6", "exercicio 7", "exercicio 8", 
@@ -50,8 +61,17 @@ public class WorkoutActivity extends Activity {
 	    Intent intent= this.getIntent();
 	    Bundle b = intent.getExtras();
 	    if (b!=null){
+	    	Cursor c = db.query("treino", null, "treino_id=?", new String[] {Integer.toString(b.getInt("treino_id"))}, null, null, "historico_id");
+	    	for(int i= 0;i<c.getCount();i++){
+	    		
+	    		c.moveToPosition(0);
+	    		tempoDescanso.setText(c.getString(c.getColumnIndex("tempoDescanso")));
+	    		tempoExercicio.setText(c.getString(c.getColumnIndex("tempoExercicio")));
+	    		ciclos.setText(c.getString(c.getColumnIndex("ciclos")));
+	    		
+	    	}
 	    	Date date = new Date(b.getLong("dataLongMiliseconds"));
-	    	Toast.makeText(getApplicationContext(), "data "+date.toString(), Toast.LENGTH_SHORT).show();
+	    	
 	    	
 	    }
 	    

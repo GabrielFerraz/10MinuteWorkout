@@ -7,6 +7,8 @@ import com.example.utils.Utils;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -23,12 +25,15 @@ public class Instrucoes extends Activity {
         setContentView(R.layout.activity_instrucoes);
         ActionBar actionBar = getActionBar();
 		actionBar.setDisplayShowTitleEnabled(false);
-        
+		SQLiteDatabase db = Utils.getDB();
+		Cursor c = db.query("exercicio", null, null, null, null, null, "exercicio_id");
         final ListView listview = (ListView) findViewById(R.id.listViewExercicios);
-        final String[] valores = new String[] { "Jumping Jacks", "Wall Sit",
-        		"Push Up", "Abdominal Crunch", "Step Up", "Squat","Triceps Dip",
-        		"Plank","High Knees","Lunge","Push Ups and Rotation","Side Plank" };
-        
+        final String[] valores = new String[12];
+        for(int i= 0;i<c.getCount();i++){
+            c.moveToPosition(i);
+                         
+            valores[i] = c.getString(c.getColumnIndex("nome"));
+        }
         final ArrayList<String> list = new ArrayList<String>();
         
         for (int i = 0; i < valores.length; i++){
