@@ -83,9 +83,9 @@ int id qtdCiclos 0x7f0a000d
 int id rowTextView 0x7f0a0016
 int id textView1 0x7f0a000c
 int id textView5 0x7f0a000f
-int id textView6 0x7f0a0011
+int id textView9 0x7f0a000e
 int id title 0x7f0a0014
-int id tvTempoDescanso 0x7f0a000e
+int id tvTempoDescanso 0x7f0a0011
 int id tvTempoExercicio 0x7f0a0010
 int id visualizar 0x7f0a0013
 int layout activity_calendar 0x7f030000

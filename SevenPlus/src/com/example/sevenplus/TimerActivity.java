@@ -1,5 +1,8 @@
 package com.example.sevenplus;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import com.example.utils.Utils;
 
 import android.os.Bundle;
@@ -7,6 +10,7 @@ import android.os.CountDownTimer;
 import android.preference.PreferenceManager;
 import android.app.ActionBar;
 import android.app.Activity;
+import android.content.ContentValues;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.database.Cursor;
@@ -78,7 +82,7 @@ public class TimerActivity extends Activity {
 		public void onFinish() {
 			tempo.setText("0");
 			if(numExercicio < 12 && ciclos > 0){
-				if (tempoInicial == (tempoDescanso*1000)+1000){
+				if (tempoInicial == (tempoExercicio*1000)+1000){
 					exercicio.setText("Descanso");
 					timer2.start();
 					numExercicio++;
@@ -98,6 +102,19 @@ public class TimerActivity extends Activity {
 					timer.start();
 				}else{
 					exercicio.setText("Workout Complete");
+					SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+					Date data = new Date();
+					SQLiteDatabase db = Utils.getDB();
+					ContentValues c  = new ContentValues();
+					c.put("ciclos", ciclos);
+					c.put("tempoExercicio", tempoExercicio);
+					c.put("tempoDescanso", tempoDescanso);
+					long treino_id = db.insert("treino", null, c);
+					c = new ContentValues();
+					c.put("treino_id", treino_id);
+					c.put("data", dateFormat.format(data.getTime()));
+					long l = db.insert("historico", null, c);
+					
 				}
 			}
 		}

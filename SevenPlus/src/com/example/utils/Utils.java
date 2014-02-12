@@ -34,8 +34,8 @@ public class Utils {
     		"CREATE TABLE IF NOT EXISTS historico ("+
             		"historico_id integer not null primary key autoincrement,"+
     				"treino_id integer not null," +
-    				"foreign key (treino_id) references treino(treino_id)," +
-    				"data text not null);",
+    				"data text not null," +
+    				"foreign key (treino_id) references treino(treino_id));",
     				
 			"CREATE TABLE IF NOT EXISTS treinos ("+
     				"exercicio_id integer not null," +
@@ -67,8 +67,10 @@ public class Utils {
 							"('Push Ups and Rotation','rotation','descricao_exercicio');",
 					"INSERT INTO exercicio (nome,imagem,descricao) VALUES" +
 							"('Side Plank','sideplank','descricao_exercicio');",
-							"INSERT INTO exercicio (nome,imagem,descricao) VALUES" +
-									"('Side Plank','sideplank','descricao_exercicio');",
+					"INSERT INTO treino (treino_id,ciclos,tempoExercicio,tempoDescanso) VALUES" +
+							"(0,1,30,5);",
+					"INSERT INTO historico (treino_id,data) VALUES" +
+							"(0,'10/02/2014');",
 
  
                      

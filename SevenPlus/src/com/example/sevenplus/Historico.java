@@ -1,5 +1,6 @@
 package com.example.sevenplus;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import com.example.utils.Utils;
@@ -10,6 +11,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.text.format.DateFormat;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -44,7 +47,10 @@ public class Historico extends Activity {
 
 			@Override
 			public void onClick(View arg0) {
-				Cursor c = db.query("historico", null, "data=?", new String[] {Long.toString(calendar.getSelectedDate().getTime())}, null, null, "historico_id");
+				
+				SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+				Date data = new Date();
+				Cursor c = db.query("historico", null, "data=?", new String[] {dateFormat.format(calendar.getSelectedDate())}, null, null, "historico_id");
 				if(c.getCount() != 0){
 					c.moveToPosition(0);
 					Intent intent = new Intent(getBaseContext(), WorkoutActivity.class);

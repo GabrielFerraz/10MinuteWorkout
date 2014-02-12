@@ -40,7 +40,7 @@
         android:text="1" />
 
     <TextView
-        android:id="@+id/tvTempoDescanso"
+        android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -52,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/tvTempoDescanso"
+        android:layout_below="@+id/textView9"
         android:text="Tempo de descanso" />
 
     <TextView
@@ -64,7 +64,7 @@
         android:text="30" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/tvTempoDescanso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/textView5"

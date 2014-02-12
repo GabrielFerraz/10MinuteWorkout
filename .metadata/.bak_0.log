@@ -1,4 +1,4 @@
-!SESSION 2014-02-11 16:11:45.370 -----------------------------------------------
+!SESSION 2014-02-11 20:20:51.688 -----------------------------------------------
 eclipse.buildId=v22.3.0-887826
 java.version=1.7.0_45
 java.vendor=Oracle Corporation
@@ -7,9 +7,9 @@ Framework arguments:  -product com.android.ide.eclipse.adt.package.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.android.ide.eclipse.adt.package.product
 
 This is a continuation of log file C:\Users\Gabriel\Documents\GitHub\10MinuteWorkout\.metadata\.bak_9.log
-Created Time: 2014-02-11 18:49:03.794
+Created Time: 2014-02-11 21:21:38.682
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.794
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.682
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -64,7 +64,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.795
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.683
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -73,61 +73,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
-	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
-	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
-	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
-	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.access$200(PropertyTable.java:64)
-	at org.eclipse.wb.internal.core.model.property.table.PropertyTable$3.handleEvent(PropertyTable.java:187)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
-	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
-	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
-	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
-	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
-	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
-	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
-
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.795
-!MESSAGE 
-!STACK 0
-java.lang.NullPointerException
-	at com.android.layoutlib.bridge.impl.RenderSessionImpl.getDefaultProperties(RenderSessionImpl.java:1476)
-	at com.android.layoutlib.bridge.BridgeRenderSession.getDefaultProperties(BridgeRenderSession.java:68)
-	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -172,7 +119,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.795
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.684
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -227,7 +174,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.796
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.684
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -236,7 +183,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -281,7 +229,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.797
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.685
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -336,7 +284,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.797
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.686
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -391,7 +339,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.798
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.686
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -400,7 +348,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -445,7 +394,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.801
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.687
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -500,7 +449,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.802
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.687
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -555,7 +504,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.802
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.688
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -610,7 +559,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.803
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.688
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -665,7 +614,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.803
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.689
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -720,7 +669,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.804
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.691
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -775,7 +724,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.804
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.692
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -830,7 +779,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.805
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.693
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -885,7 +834,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.805
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.693
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -940,7 +889,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.806
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.694
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -995,7 +944,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.806
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.695
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1050,7 +999,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.807
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.695
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1105,7 +1054,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.807
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.696
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1160,7 +1109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.808
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.696
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1169,7 +1118,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -1214,7 +1164,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.808
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.697
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1223,7 +1173,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -1268,7 +1219,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.809
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.697
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1323,7 +1274,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.809
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.698
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1332,7 +1283,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -1377,7 +1329,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.810
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.700
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1432,7 +1384,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.810
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.701
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1487,7 +1439,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.811
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.701
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1496,7 +1448,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -1541,7 +1494,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.815
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.702
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1596,7 +1549,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.815
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.702
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1651,7 +1604,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.816
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.703
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1706,7 +1659,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.816
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.704
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1761,7 +1714,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.817
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.704
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1816,7 +1769,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.817
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.705
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1871,7 +1824,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.818
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.705
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1926,7 +1879,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.818
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.706
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -1981,7 +1934,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.819
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.706
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2036,7 +1989,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.819
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.709
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2091,7 +2044,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.820
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.709
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2146,7 +2099,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.821
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.710
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2201,7 +2154,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.821
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.711
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2256,7 +2209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.822
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.711
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2265,7 +2218,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -2310,7 +2264,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.822
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.712
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2319,7 +2273,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -2364,7 +2319,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.823
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.712
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2419,7 +2374,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.823
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.713
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2428,7 +2383,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -2473,7 +2429,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.823
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.714
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2528,7 +2484,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.824
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.714
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2583,7 +2539,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.824
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.715
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2592,7 +2548,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -2637,7 +2594,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.828
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.715
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2692,7 +2649,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.828
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.718
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2747,7 +2704,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.829
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.718
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2802,7 +2759,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.829
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.719
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2857,7 +2814,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.830
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.719
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2912,7 +2869,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.831
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.720
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -2967,7 +2924,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.831
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.721
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3022,7 +2979,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.832
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.721
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3077,7 +3034,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.832
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.722
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3132,7 +3089,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.833
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.722
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3187,7 +3144,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.833
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.723
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3242,7 +3199,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.834
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.724
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3297,7 +3254,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.834
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.724
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3352,7 +3309,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.835
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.727
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3361,7 +3318,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -3406,7 +3364,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.835
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.728
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3415,7 +3373,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -3460,7 +3419,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.836
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.729
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3515,7 +3474,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.836
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.729
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3524,7 +3483,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -3569,7 +3529,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.837
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.730
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3624,7 +3584,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.837
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.731
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3679,7 +3639,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.838
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.731
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3688,7 +3648,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -3733,7 +3694,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.841
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.732
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3788,7 +3749,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.842
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.733
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3843,7 +3804,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.842
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.733
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3898,7 +3859,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.843
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.734
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -3953,7 +3914,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.844
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.734
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4008,7 +3969,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.844
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.737
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4063,7 +4024,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.845
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.737
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4118,7 +4079,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.845
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.738
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4173,7 +4134,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.846
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.738
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4228,7 +4189,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.846
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.739
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4283,7 +4244,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.847
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.740
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4338,7 +4299,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.848
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.740
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4393,7 +4354,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.848
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.741
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4448,7 +4409,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.849
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.741
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4457,7 +4418,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -4502,7 +4464,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.849
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.742
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4511,7 +4473,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -4556,7 +4519,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.850
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.742
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4611,7 +4574,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.850
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.743
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4620,7 +4583,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -4665,7 +4629,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.851
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.947
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4685,14 +4649,9 @@ java.lang.NullPointerException
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
-	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1564)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4585)
 	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
-	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
 	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
@@ -4720,7 +4679,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.851
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.948
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4740,14 +4699,9 @@ java.lang.NullPointerException
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
-	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1564)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4585)
 	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
-	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
 	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
@@ -4775,7 +4729,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.852
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.949
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4784,7 +4738,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -4794,14 +4749,9 @@ java.lang.NullPointerException
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
-	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1564)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4585)
 	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
-	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
 	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
@@ -4829,7 +4779,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.855
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.949
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4849,14 +4799,9 @@ java.lang.NullPointerException
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
-	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1564)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4585)
 	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
-	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
 	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
@@ -4884,7 +4829,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.856
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.950
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4904,14 +4849,9 @@ java.lang.NullPointerException
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
-	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1564)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4585)
 	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
-	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
 	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
@@ -4939,7 +4879,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.857
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.950
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -4959,14 +4899,9 @@ java.lang.NullPointerException
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
-	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1564)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4585)
 	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
-	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
 	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
@@ -4994,7 +4929,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.857
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.951
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5014,14 +4949,9 @@ java.lang.NullPointerException
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
-	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1564)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4585)
 	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
-	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
 	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
@@ -5049,7 +4979,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.858
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.951
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5069,14 +4999,9 @@ java.lang.NullPointerException
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
-	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1564)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4585)
 	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
-	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
 	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
@@ -5104,7 +5029,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.859
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.952
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5124,14 +5049,9 @@ java.lang.NullPointerException
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
-	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1564)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4585)
 	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
-	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
 	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
@@ -5159,7 +5079,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.860
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.953
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5179,14 +5099,9 @@ java.lang.NullPointerException
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
-	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1564)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4585)
 	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
-	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
 	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
@@ -5214,7 +5129,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.861
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.953
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5234,14 +5149,9 @@ java.lang.NullPointerException
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
-	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1564)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4585)
 	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
-	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
 	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
@@ -5269,7 +5179,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.861
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.954
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5289,14 +5199,9 @@ java.lang.NullPointerException
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
-	at org.eclipse.swt.widgets.Composite.WM_PRINTCLIENT(Composite.java:1639)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4590)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1564)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4585)
 	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2440)
-	at org.eclipse.swt.widgets.Button.callWindowProc(Button.java:343)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
 	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4989)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
@@ -5324,7 +5229,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.862
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.958
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5379,7 +5284,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.862
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.959
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5434,7 +5339,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.863
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.959
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5489,7 +5394,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.863
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.960
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5544,7 +5449,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.864
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.961
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5553,7 +5458,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -5598,7 +5504,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.864
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.961
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5607,7 +5513,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -5652,7 +5559,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.865
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.962
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5707,7 +5614,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.865
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.962
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5716,7 +5623,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -5761,7 +5669,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.865
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.963
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5816,7 +5724,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.866
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.964
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5871,7 +5779,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.866
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.964
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5880,7 +5788,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -5925,7 +5834,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.870
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.965
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -5980,7 +5889,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.870
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.967
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6035,7 +5944,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.871
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.968
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6090,7 +5999,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.871
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.968
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6145,7 +6054,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.872
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.969
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6200,7 +6109,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.872
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.970
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6255,7 +6164,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.873
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.970
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6310,7 +6219,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.874
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.971
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6365,7 +6274,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.874
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.971
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6420,7 +6329,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.875
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.972
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6475,7 +6384,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.875
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.972
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6530,7 +6439,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.876
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.973
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6585,7 +6494,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.876
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.973
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6640,7 +6549,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.877
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.976
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6649,7 +6558,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -6694,7 +6604,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.877
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.977
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6703,7 +6613,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -6748,7 +6659,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.878
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.977
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6803,7 +6714,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.879
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.978
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6812,7 +6723,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -6857,7 +6769,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.879
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.978
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6912,7 +6824,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.880
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.979
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6967,7 +6879,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.880
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.979
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -6976,7 +6888,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -7021,7 +6934,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.883
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.980
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -7076,7 +6989,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.884
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.981
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -7131,7 +7044,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.885
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.981
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -7186,7 +7099,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.885
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.982
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -7241,7 +7154,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.886
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.982
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -7296,7 +7209,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.886
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.985
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -7351,7 +7264,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.887
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.985
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -7406,7 +7319,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.888
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.986
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -7461,7 +7374,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.888
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.987
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -7516,7 +7429,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.889
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.987
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -7571,7 +7484,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.889
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.988
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -7626,7 +7539,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.890
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.988
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -7681,7 +7594,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.890
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.989
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -7736,7 +7649,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.891
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.989
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -7745,7 +7658,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -7790,7 +7704,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.891
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.990
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -7799,7 +7713,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -7844,7 +7759,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.892
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.990
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -7899,7 +7814,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.892
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.991
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -7908,7 +7823,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -7953,7 +7869,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.893
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.994
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8008,7 +7924,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.893
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.994
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8063,7 +7979,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.894
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.995
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8072,7 +7988,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -8117,7 +8034,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.897
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.995
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8172,7 +8089,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.897
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.996
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8227,7 +8144,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.898
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.997
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8282,7 +8199,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.898
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.997
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8337,7 +8254,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.899
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.998
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8392,7 +8309,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.900
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.998
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8447,7 +8364,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.900
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.999
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8502,7 +8419,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.901
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:38.999
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8557,7 +8474,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.901
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.000
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8612,7 +8529,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.902
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.002
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8667,7 +8584,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.902
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.003
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8722,7 +8639,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.903
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.004
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8777,7 +8694,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.903
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.004
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8832,7 +8749,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.904
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.005
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8841,7 +8758,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -8886,7 +8804,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.904
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.005
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8895,7 +8813,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -8940,7 +8859,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.905
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.006
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -8995,7 +8914,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.905
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.006
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9004,7 +8923,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -9049,7 +8969,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.906
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.007
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9104,7 +9024,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.906
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.007
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9159,7 +9079,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.907
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.008
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9168,7 +9088,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -9213,7 +9134,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.913
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.009
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9268,7 +9189,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.914
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.011
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9323,7 +9244,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.914
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.012
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9378,7 +9299,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.915
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.012
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9433,7 +9354,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.915
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.013
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9488,7 +9409,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.916
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.014
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9543,7 +9464,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.916
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.014
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9598,7 +9519,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.917
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.015
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9653,7 +9574,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.917
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.016
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9708,7 +9629,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.918
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.016
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9763,7 +9684,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.919
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.017
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9818,7 +9739,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.919
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.017
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9873,7 +9794,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.920
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.018
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9928,7 +9849,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.920
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.021
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9937,7 +9858,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -9982,7 +9904,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.921
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.021
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -9991,7 +9913,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -10036,7 +9959,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.921
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.022
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10091,7 +10014,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.922
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.022
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10100,7 +10023,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -10145,7 +10069,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.922
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.023
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10200,7 +10124,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.923
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.023
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10255,7 +10179,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.923
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.024
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10264,7 +10188,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -10309,7 +10234,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.926
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.025
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10364,7 +10289,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.927
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.025
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10419,7 +10344,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.928
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.026
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10474,7 +10399,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.928
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.026
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10529,7 +10454,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.929
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.027
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10584,7 +10509,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.929
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.030
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10639,7 +10564,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.930
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.030
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10694,7 +10619,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.930
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.031
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10749,7 +10674,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.931
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.031
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10804,7 +10729,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.931
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.032
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10859,7 +10784,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.932
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.033
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10914,7 +10839,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.932
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.033
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10969,7 +10894,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.933
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.034
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11024,7 +10949,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.933
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.035
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11033,7 +10958,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -11078,7 +11004,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.934
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.035
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11087,7 +11013,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -11132,7 +11059,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.934
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.036
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11187,7 +11114,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.935
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.036
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11196,7 +11123,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -11241,7 +11169,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.935
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.039
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11296,7 +11224,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.936
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.040
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11351,7 +11279,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.936
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.041
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11360,7 +11288,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -11405,7 +11334,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.940
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.041
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11460,7 +11389,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.940
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.042
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11515,7 +11444,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.941
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.043
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11570,7 +11499,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.941
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.043
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11625,7 +11554,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.942
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.044
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11680,7 +11609,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.942
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.044
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11735,7 +11664,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.943
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.045
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11790,7 +11719,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.944
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.046
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11845,7 +11774,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.944
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.046
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11900,7 +11829,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.945
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.049
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -11955,7 +11884,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.946
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.050
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12010,7 +11939,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.947
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.050
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12065,7 +11994,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.948
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.051
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12120,7 +12049,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.948
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.052
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12129,7 +12058,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -12174,7 +12104,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.949
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.052
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12183,7 +12113,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -12228,7 +12159,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.949
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.053
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12283,7 +12214,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.950
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.054
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12292,7 +12223,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -12337,7 +12269,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.950
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.054
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12392,7 +12324,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.951
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.055
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12447,7 +12379,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.951
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.055
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12456,7 +12388,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)
@@ -12501,7 +12434,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.954
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.056
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12556,7 +12489,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.955
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.059
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12611,7 +12544,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.955
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.059
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12666,7 +12599,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.956
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.060
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12721,7 +12654,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.957
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.060
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12776,7 +12709,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.957
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.061
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12831,7 +12764,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.958
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.062
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12886,7 +12819,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.958
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.062
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12941,7 +12874,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.959
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.063
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -12996,7 +12929,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.960
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.063
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -13051,7 +12984,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.960
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.064
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -13106,7 +13039,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.961
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.064
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -13161,7 +13094,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.961
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.065
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -13216,7 +13149,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 
-!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 18:49:03.962
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-02-11 21:21:39.070
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -13225,7 +13158,8 @@ java.lang.NullPointerException
 	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.ViewHierarchy.getDefaultProperties(ViewHierarchy.java:710)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getStringValue(XmlProperty.java:209)
 	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlProperty.getValue(XmlProperty.java:221)
-	at com.android.ide.eclipse.adt.internal.editors.layout.properties.BooleanXmlPropertyEditor.paint(BooleanXmlPropertyEditor.java:52)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.getText(XmlPropertyEditor.java:116)
+	at com.android.ide.eclipse.adt.internal.editors.layout.properties.XmlPropertyEditor.paint(XmlPropertyEditor.java:131)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawProperty(PropertyTable.java:1309)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.drawContent(PropertyTable.java:1151)
 	at org.eclipse.wb.internal.core.model.property.table.PropertyTable.handlePaint(PropertyTable.java:1094)

@@ -159,9 +159,9 @@ containing a value of this type.
         public static final int rowTextView=0x7f0a0016;
         public static final int textView1=0x7f0a000c;
         public static final int textView5=0x7f0a000f;
-        public static final int textView6=0x7f0a0011;
+        public static final int textView9=0x7f0a000e;
         public static final int title=0x7f0a0014;
-        public static final int tvTempoDescanso=0x7f0a000e;
+        public static final int tvTempoDescanso=0x7f0a0011;
         public static final int tvTempoExercicio=0x7f0a0010;
         public static final int visualizar=0x7f0a0013;
     }

@@ -13,10 +13,13 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.AdapterView.OnItemClickListener;
 
 public class WorkoutActivity extends Activity {
 
@@ -25,6 +28,7 @@ public class WorkoutActivity extends Activity {
 	 private TextView tempoDescanso;
 	 private TextView ciclos;
 	 private ArrayAdapter<String> listAdapter ;  
+	 String[] exercicios;
 	    
 	  /** Called when the activity is first created. */  
 	  @Override  
@@ -43,25 +47,41 @@ public class WorkoutActivity extends Activity {
 	    tempoDescanso = (TextView) findViewById(R.id.tvTempoDescanso);
 	    ciclos = (TextView) findViewById(R.id.qtdCiclos);
 	    // Create and populate a List of planet names.  
-	    String[] planets = new String[] { "exercicio 1", "exercicio 2", "exercicio 3", "exercicio 4",  
-	                                      "exercicio 5", "exercicio 6", "exercicio 7", "exercicio 8", 
-	                                      "exercicio 9", "exercicio 10", "exercicio 11", "exercicio 12"};
-	    
-	    ArrayList<String> planetList = new ArrayList<String>();  
-	    for (int i = 0; i < planets.length; i++){
-	    	planetList.add(planets[i]);
+	    exercicios = new String[12];
+	    Cursor c = db.query("exercicio", null, null, null, null, null, "exercicio_id");
+		for(int i= 0;i<c.getCount();i++){
+            c.moveToPosition(i);
+                         
+            exercicios[i] = c.getString(c.getColumnIndex("nome"));
+        } 
+	    ArrayList<String> list = new ArrayList<String>();  
+	    for (int i = 0; i < exercicios.length; i++){
+	    	list.add(exercicios[i]);
         }
 	      
 	    // Create ArrayAdapter using the planet list.  
-	    listAdapter = new ArrayAdapter<String>(this, R.layout.simplerow, planetList);    
+	    listAdapter = new ArrayAdapter<String>(this, R.layout.simplerow, list);    
 	      
 	    // Set the ArrayAdapter as the ListView's adapter.  
 	    mainListView.setAdapter( listAdapter );
 	    
+	    mainListView.setOnItemClickListener(new OnItemClickListener() {
+
+			@Override
+			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
+				
+			    Intent teste2 = new Intent(arg1.getContext(), Exercicio.class);
+                teste2.putExtra("titulo",exercicios[arg2] );
+                startActivity(teste2);
+
+			}
+
+ });
+	    
 	    Intent intent= this.getIntent();
 	    Bundle b = intent.getExtras();
 	    if (b!=null){
-	    	Cursor c = db.query("treino", null, "treino_id=?", new String[] {Integer.toString(b.getInt("treino_id"))}, null, null, "historico_id");
+	    	c = db.query("treino", null, "treino_id=?", new String[] {Integer.toString(b.getInt("treino_id"))}, null, null, "treino_id");
 	    	for(int i= 0;i<c.getCount();i++){
 	    		
 	    		c.moveToPosition(0);
